@@ -556,6 +556,7 @@ tinh display hoac thay bang the p) */
     display: inline-block;
     padding: 5px 16px;
     cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .header-buy__number {
@@ -1041,9 +1042,11 @@ a {
 
 .header-mobile-bonus-tablet {
     display: none;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .header-mobile-bonus-tablet-mobile {
+    -webkit-tap-highlight-color: transparent;
     display: none;
 }
 

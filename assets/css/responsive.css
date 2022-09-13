@@ -17,6 +17,12 @@
     .header-search .header-search__box {
         margin-bottom: 0px;
         margin-right: 19px;
+
+        border-bottom: 1px solid #e3e1e1;
+    }
+
+    .header-search__input {
+        padding-left: 7px;
     }
 
     .header-search .header-search__buy {
@@ -193,7 +199,7 @@
     } */
 
     .header-search__box {
-        height: 46px;
+        height: 48px;
         display: flex;
         padding: 0 8px;
         margin-right: unset !important;
@@ -229,9 +235,10 @@
     .header-search__history {
         width: 100%;
         position: fixed;
-        top: calc(68px + var(--header-sortBar-height));
+        top: calc(62px + var(--header-sortBar-height));
         left: 0;
         right: 0;
+        
     }
 
     /* show INfo */
